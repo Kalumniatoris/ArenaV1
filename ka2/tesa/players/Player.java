@@ -16,7 +16,7 @@ public abstract class Player {
 	this.id=id;
 }
 
-
+//board, your id, number of player, current scores;
 public abstract String go(int[][] map, int id, int n, ArrayList<Integer> scores);
 
 
