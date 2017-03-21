@@ -130,7 +130,7 @@ public class Board {
 		if (command.length != 2)
 			return;
 		int x = Integer.parseInt(command[0]);
-		int y = Integer.parseInt(command[0]);
+		int y = Integer.parseInt(command[1]);
 		if (x >= 0 && x < this.width && y >= 0 && y < this.height) {
 			if (tmp[x][y] == 0) {
 				tmp[x][y] = player.getId();
